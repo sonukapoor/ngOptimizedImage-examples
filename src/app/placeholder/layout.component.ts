@@ -7,12 +7,12 @@ import { RouterModule, RouterOutlet } from '@angular/router';
   imports: [RouterOutlet, RouterModule],
   template: `
     <p>
-      <!-- <a
+      <a
         routerLink="low-resolution-placeholder"
         routerLinkActive="selected-secondary"
-        >Default Placeholder</a
+        >Low Resolution Placeholder</a
       >
-      | -->
+      |
       <a
         routerLink="low-resolution-base64-placeholder"
         routerLinkActive="selected-secondary"
