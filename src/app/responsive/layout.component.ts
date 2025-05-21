@@ -8,11 +8,11 @@ import { RouterModule, RouterOutlet } from '@angular/router';
   template: `
     <p>
       <a routerLink="out-of-box" routerLinkActive="selected-secondary"
-        >Out of box support</a
+        >Out of box support (DPR)</a
       >
       |
       <a routerLink="with-80vw" routerLinkActive="selected-secondary"
-        >With 80vw</a
+        >With 80vw (All breakpoints)</a
       >
       |
       <a routerLink="custom-src-set" routerLinkActive="selected-secondary"
